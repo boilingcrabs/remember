@@ -1,8 +1,9 @@
 import React from 'react';
+import Signup from './signup';
 
 const Navbar = () => (
   <div>
-    <form>
+    <form action="/login" type="GET">
       <div>
         <span> username: </span>
         <input type="text" name="username" placeholder="id" />
@@ -12,6 +13,7 @@ const Navbar = () => (
         <input type="password" name="password" placeholder="password" />
       </div>
     </form>
+    
   </div>
 );
 
