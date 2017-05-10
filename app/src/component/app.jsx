@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <span>Hello World!</span><br/>
-        <Link to="signup"> Sign up! </Link>
+        <Link to="/signup"> Sign up! </Link>
       </div>
     );
   }

@@ -15,10 +15,10 @@ class Index extends React.Component {
       <div>
         <Navbar />
         <Router>
-          <div>
+          <Switch>
             <Route exact path="/" component={App} />
             <Route path="/signup" component={Signup} />
-          </div>
+          </Switch>
         </Router>
       </div>
     );
