@@ -3,7 +3,7 @@ import Signup from './signup';
 
 const Navbar = () => (
   <div>
-    <form action="/login" type="GET">
+    <form action="/Signin" method="POST">
       <div>
         <span> username: </span>
         <input type="text" name="username" placeholder="id" />
@@ -12,8 +12,8 @@ const Navbar = () => (
         <span> password: </span>
         <input type="password" name="password" placeholder="password" />
       </div>
+      <input type="submit" value="submit" />
     </form>
-    
   </div>
 );
 
